@@ -69,7 +69,7 @@ export default {
     },
     items () {
       const items = [
-        ...this.userMenuItems,
+        // ...this.userMenuItems,
         ...this.extraItems,
       ]
       if (this.languages?.length > 1) {
